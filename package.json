@@ -1,0 +1,27 @@
+{
+  "name": "ens-namehash",
+  "version": "1.0.0",
+  "description": "Solidity implementation of the ENS namehash algorithm.",
+  "dependencies": {},
+  "devDependencies": {
+    "eth-ens-namehash": "^2.0.8"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonahGroendal/ens-namehash.git"
+  },
+  "keywords": [
+    "Solidity",
+    "ENS",
+    "namehash"
+  ],
+  "author": "Jonah Groendal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonahGroendal/ens-namehash/issues"
+  },
+  "homepage": "https://github.com/JonahGroendal/ens-namehash#readme"
+}
