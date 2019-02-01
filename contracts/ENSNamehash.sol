@@ -1,4 +1,4 @@
-pragma solidity ^0.5.1;
+pragma solidity ^0.5.2;
 
 /*
  * @dev Solidity implementation of the ENS namehash algorithm.
