@@ -5,8 +5,7 @@
   "dependencies": {},
   "devDependencies": {
     "eth-ens-namehash": "^2.0.8",
-    "truffle": "^5.1.53",
-    "truffle-hdwallet-provider": "^1.0.17"
+    "truffle": "^5.1.53"
   },
   "scripts": {
     "compile": "truffle compile",
