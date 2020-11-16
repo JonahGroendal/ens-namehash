@@ -4,9 +4,14 @@
   "description": "Solidity implementation of the ENS namehash algorithm.",
   "dependencies": {},
   "devDependencies": {
-    "eth-ens-namehash": "^2.0.8"
+    "eth-ens-namehash": "^2.0.8",
+    "truffle": "^5.1.53",
+    "truffle-hdwallet-provider": "^1.0.17"
   },
   "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "migrate-kovan": "truffle migrate --network kovan",
     "test": "truffle test"
   },
   "repository": {
