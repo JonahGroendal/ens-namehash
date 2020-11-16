@@ -10,10 +10,7 @@
   },
   "scripts": {
     "compile": "truffle compile",
-    "migrate": "truffle migrate",
-    "migrate-kovan": "truffle migrate --network kovan",
-    "test": "truffle test",
-    "generate-keys": "node generateKeys.js"
+    "test": "truffle test"
   },
   "repository": {
     "type": "git",

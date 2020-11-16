@@ -7,7 +7,7 @@ pragma solidity ^0.5.2;
  */
 library ENSNamehash {
 
-  function namehash(bytes calldata domain) external pure returns (bytes32) {
+  function namehash(bytes memory domain) internal pure returns (bytes32) {
     return namehash(domain, 0);
   }
 

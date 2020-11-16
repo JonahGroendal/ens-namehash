@@ -1,0 +1,480 @@
+{
+  "contractName": "NamehashTest",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "domain",
+          "type": "bytes"
+        }
+      ],
+      "name": "namehash",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.2+commit.1df8f40c\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"name\":\"domain\",\"type\":\"bytes\"}],\"name\":\"namehash\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/jonah/ens-namehash/contracts/NamehashTest.sol\":\"NamehashTest\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jonah/ens-namehash/contracts/ENSNamehash.sol\":{\"keccak256\":\"0x6bb68ace9fd361780f660bce243818871f1ddc62cba5a0c42caae247dc83f485\",\"urls\":[\"bzzr://279b3eabd0929ed953e8a428b1551ae312e97ed3369d7f8353a420839e0a8446\"]},\"/home/jonah/ens-namehash/contracts/NamehashTest.sol\":{\"keccak256\":\"0x4e1dcfd446921daef3b107c194761a4c76ee75b91ebb7610c1238b4c717188ee\",\"urls\":[\"bzzr://9d719903c793475aab1c973d26c0dd24377c4aed8428f424761d13fda24d887d\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061024b806100206000396000f3fe608060405234801561001057600080fd5b5060043610610047577c010000000000000000000000000000000000000000000000000000000060003504630e0fb924811461004c575b600080fd5b6100bc6004803603602081101561006257600080fd5b81019060208101813564010000000081111561007d57600080fd5b82018360208201111561008f57600080fd5b803590602001918460018302840111640100000000831117156100b157600080fd5b5090925090506100ce565b60408051918252519081900360200190f35b600061010f83838080601f01602080910402602001604051908101604052809392919081815260200183838082843760009201919091525061011892505050565b90505b92915050565b60006101128260005b600081835111151561013557506000610112565b60006101418484610193565b905061015284828501600101610121565b61015d858584610202565b60405160200180838152602001828152602001925050506040516020818303038152906040528051906020012091505092915050565b6000805b8351818401141580156101f55750838184018151811015156101b557fe5b90602001015160f860020a900460f860020a027effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916602e60f860020a0214155b1561010f57600101610197565b8251600090838301111561021557600080fd5b509101602001209056fea165627a7a72305820bbac250aaf2420bd77acaa1436892c8f10a1636b9e047e30085b77954f454e5d0029",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b5060043610610047577c010000000000000000000000000000000000000000000000000000000060003504630e0fb924811461004c575b600080fd5b6100bc6004803603602081101561006257600080fd5b81019060208101813564010000000081111561007d57600080fd5b82018360208201111561008f57600080fd5b803590602001918460018302840111640100000000831117156100b157600080fd5b5090925090506100ce565b60408051918252519081900360200190f35b600061010f83838080601f01602080910402602001604051908101604052809392919081815260200183838082843760009201919091525061011892505050565b90505b92915050565b60006101128260005b600081835111151561013557506000610112565b60006101418484610193565b905061015284828501600101610121565b61015d858584610202565b60405160200180838152602001828152602001925050506040516020818303038152906040528051906020012091505092915050565b6000805b8351818401141580156101f55750838184018151811015156101b557fe5b90602001015160f860020a900460f860020a027effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916602e60f860020a0214155b1561010f57600101610197565b8251600090838301111561021557600080fd5b509101602001209056fea165627a7a72305820bbac250aaf2420bd77acaa1436892c8f10a1636b9e047e30085b77954f454e5d0029",
+  "sourceMap": "54:168:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;54:168:2;;;;;;;",
+  "deployedSourceMap": "54:168:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;54:168:2;;;;;;;;;;;;;;;;;;;112:108;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;112:108:2;;;;;;;;21:11:-1;5:28;;2:2;;;46:1;43;36:12;2:2;112:108:2;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;112:108:2;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;-1:-1;112:108:2;;-1:-1:-1;112:108:2;-1:-1:-1;112:108:2;:::i;:::-;;;;;;;;;;;;;;;;;176:7;198:17;:6;;:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;81:16;;74:27;;;;-1:-1;198:15:2;;-1:-1:-1;;;198:17:2:i;:::-;191:24;;112:108;;;;;:::o;188::0:-;250:7;272:19;281:6;289:1;300:325;370:7;406:1;389:6;:13;:18;;385:103;;;-1:-1:-1;422:66:0;415:73;;385:103;495:8;506:22;518:6;526:1;506:11;:22::i;:::-;495:33;;569:25;578:6;588:3;586:1;:5;592:1;586:7;569:8;:25::i;:::-;596:22;603:6;611:1;614:3;596:6;:22::i;:::-;552:67;;;;;;;;;;;;;;;;;;;;;49:4:-1;39:7;30;26:21;22:32;13:7;6:49;552:67:0;;;542:78;;;;;;535:85;;;300:325;;;;:::o;629:194::-;701:4;713:8;727:76;743:6;:13;736:3;734:1;:5;:22;;:47;;;;;760:6;769:3;767:1;:5;760:13;;;;;;;;;;;;;;;-1:-1:-1;;;760:13:0;;-1:-1:-1;;;760:13:0;:21;;;777:4;-1:-1:-1;;;760:21:0;;;734:47;727:76;;;791:5;;727:76;;827:217;950:11;;907;;934:12;;;:27;;926:36;;;;;;-1:-1:-1;1002:26:0;;1016:2;1002:26;992:42;;977:63::o",
+  "source": "pragma solidity ^0.5.2;\n\nimport './ENSNamehash.sol';\n\ncontract NamehashTest {\n  using ENSNamehash for bytes;\n\n  function namehash(bytes calldata domain) external pure returns (bytes32) {\n    return domain.namehash();\n  }\n}\n",
+  "sourcePath": "/home/jonah/ens-namehash/contracts/NamehashTest.sol",
+  "ast": {
+    "absolutePath": "/home/jonah/ens-namehash/contracts/NamehashTest.sol",
+    "exportedSymbols": {
+      "NamehashTest": [
+        190
+      ]
+    },
+    "id": 191,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 173,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:2"
+      },
+      {
+        "absolutePath": "/home/jonah/ens-namehash/contracts/ENSNamehash.sol",
+        "file": "./ENSNamehash.sol",
+        "id": 174,
+        "nodeType": "ImportDirective",
+        "scope": 191,
+        "sourceUnit": 115,
+        "src": "25:27:2",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 190,
+        "linearizedBaseContracts": [
+          190
+        ],
+        "name": "NamehashTest",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "id": 177,
+            "libraryName": {
+              "contractScope": null,
+              "id": 175,
+              "name": "ENSNamehash",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 114,
+              "src": "86:11:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ENSNamehash_$114",
+                "typeString": "library ENSNamehash"
+              }
+            },
+            "nodeType": "UsingForDirective",
+            "src": "80:28:2",
+            "typeName": {
+              "id": 176,
+              "name": "bytes",
+              "nodeType": "ElementaryTypeName",
+              "src": "102:5:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes_storage_ptr",
+                "typeString": "bytes"
+              }
+            }
+          },
+          {
+            "body": {
+              "id": 188,
+              "nodeType": "Block",
+              "src": "185:35:2",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 184,
+                        "name": "domain",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 179,
+                        "src": "198:6:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes_calldata_ptr",
+                          "typeString": "bytes calldata"
+                        }
+                      },
+                      "id": 185,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "namehash",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 14,
+                      "src": "198:15:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$bound_to$_t_bytes_memory_ptr_$",
+                        "typeString": "function (bytes memory) pure returns (bytes32)"
+                      }
+                    },
+                    "id": 186,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "198:17:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "functionReturnParameters": 183,
+                  "id": 187,
+                  "nodeType": "Return",
+                  "src": "191:24:2"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 189,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "namehash",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 180,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 179,
+                  "name": "domain",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 189,
+                  "src": "130:21:2",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_calldata_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 178,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "130:5:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "129:23:2"
+            },
+            "returnParameters": {
+              "id": 183,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 182,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 189,
+                  "src": "176:7:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 181,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "176:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "175:9:2"
+            },
+            "scope": 190,
+            "src": "112:108:2",
+            "stateMutability": "pure",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 191,
+        "src": "54:168:2"
+      }
+    ],
+    "src": "0:223:2"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/jonah/ens-namehash/contracts/NamehashTest.sol",
+    "exportedSymbols": {
+      "NamehashTest": [
+        190
+      ]
+    },
+    "id": 191,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 173,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:2"
+      },
+      {
+        "absolutePath": "/home/jonah/ens-namehash/contracts/ENSNamehash.sol",
+        "file": "./ENSNamehash.sol",
+        "id": 174,
+        "nodeType": "ImportDirective",
+        "scope": 191,
+        "sourceUnit": 115,
+        "src": "25:27:2",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 190,
+        "linearizedBaseContracts": [
+          190
+        ],
+        "name": "NamehashTest",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "id": 177,
+            "libraryName": {
+              "contractScope": null,
+              "id": 175,
+              "name": "ENSNamehash",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 114,
+              "src": "86:11:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ENSNamehash_$114",
+                "typeString": "library ENSNamehash"
+              }
+            },
+            "nodeType": "UsingForDirective",
+            "src": "80:28:2",
+            "typeName": {
+              "id": 176,
+              "name": "bytes",
+              "nodeType": "ElementaryTypeName",
+              "src": "102:5:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes_storage_ptr",
+                "typeString": "bytes"
+              }
+            }
+          },
+          {
+            "body": {
+              "id": 188,
+              "nodeType": "Block",
+              "src": "185:35:2",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 184,
+                        "name": "domain",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 179,
+                        "src": "198:6:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes_calldata_ptr",
+                          "typeString": "bytes calldata"
+                        }
+                      },
+                      "id": 185,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "namehash",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 14,
+                      "src": "198:15:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$bound_to$_t_bytes_memory_ptr_$",
+                        "typeString": "function (bytes memory) pure returns (bytes32)"
+                      }
+                    },
+                    "id": 186,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "198:17:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "functionReturnParameters": 183,
+                  "id": 187,
+                  "nodeType": "Return",
+                  "src": "191:24:2"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 189,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "namehash",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 180,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 179,
+                  "name": "domain",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 189,
+                  "src": "130:21:2",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_calldata_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 178,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "130:5:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "129:23:2"
+            },
+            "returnParameters": {
+              "id": 183,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 182,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 189,
+                  "src": "176:7:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 181,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "176:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "175:9:2"
+            },
+            "scope": 190,
+            "src": "112:108:2",
+            "stateMutability": "pure",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 191,
+        "src": "54:168:2"
+      }
+    ],
+    "src": "0:223:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.2+commit.1df8f40c.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.2",
+  "updatedAt": "2020-11-16T21:17:42.304Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
