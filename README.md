@@ -17,7 +17,7 @@ contract A {
   using ENSNamehash for bytes;
   
   function getNamehash(bytes memory name) public pure returns (bytes32) {
-    return name.namehash(0);
+    return name.namehash();
   }
 }
 ```
