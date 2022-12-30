@@ -5,7 +5,7 @@
   "dependencies": {},
   "devDependencies": {
     "eth-ens-namehash": "^2.0.8",
-    "truffle": "^5.1.53"
+    "truffle": "^5.7.1"
   },
   "scripts": {
     "compile": "truffle compile",
